@@ -11,3 +11,5 @@ jobs:
       - name: clone repo
         uses: action/checkout@v7
 
+      - name: hello
+        run: echo "welcome"
