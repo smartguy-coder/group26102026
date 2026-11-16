@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: clone repo
-        uses: action/checkout@v7
+        uses: actions/checkout@v7
 
       - name: hello
         run: echo "welcome"
