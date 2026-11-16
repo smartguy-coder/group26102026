@@ -1,0 +1,13 @@
+name: my tests
+
+on:
+  pull_request:
+
+
+jobs:
+  testing_with_pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clone repo
+        uses: action/checkout@v7
+
