@@ -12,7 +12,7 @@ class TestCreateBankAccount:
     def test_create_account2(self):
         account = BankAccount('        борис2')
         assert account.money == 0
-        assert account.owner == 'Борис2'
+        assert account.owner == 'Борис2hhhhhhhhhhhhh'
         assert account.id
         assert not account.transactions
 
