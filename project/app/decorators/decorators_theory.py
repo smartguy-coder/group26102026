@@ -51,7 +51,7 @@ def func_with_param(function):
 # func_with_param(66666666666666)
 # func_with_param(some_new_function)
 
-some_new_function = func_with_param(some_new_function)
+some_new_function = func_with_param(                   some_new_function                         )
 some_new_function_jump = func_with_param(some_new_function_jump)
 
 print(some_new_function)
